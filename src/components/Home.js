@@ -21,11 +21,11 @@ const Home = ({ leftImg, video, leftImgSrc }) => {
           </video>
         )}
         {leftImg && (
-          <img
-            className="leftimagepicture"
-            src={`${leftImgSrc ? leftImgSrc : "img/leftimage-dark.jpg"}`}
-            alt=""
-          />
+            <img
+              className="leftimagepicture"
+              src={`${leftImgSrc ? leftImgSrc : "img/leftimage-dark.jpg"}`}
+              alt=""
+            />
         )}
         <div className="main-text" id="selector">
           <h3>Welcome!</h3>

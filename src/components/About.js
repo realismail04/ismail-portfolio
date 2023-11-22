@@ -116,7 +116,7 @@ const About = () => {
               </ul>
             </div>
             <div className="col-12 resume-btn-container">
-              <a target="_blank" href="https://www.linkedin.com/in/theismail04/" className="btn btn-resume">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/theismail04/" className="btn btn-resume">
                 <span >
                   <i  className="fa fa-linkedin" id="css"/>
                   Visit my LinkedIn
@@ -160,7 +160,7 @@ const About = () => {
                     </div>
                     <div className="card-body">
                       <p>
-                      As a dedicated TechStead team member, I'm focused on professional growth in WordPress development and creative web design. I play a pivotal role in our web development projects, contributing to our team's success with passion and innovation.
+                      As a dedicated TechStead team member, I am focused on professional growth in WordPress development and creative web design. I play a pivotal role in our web development projects, contributing to our teams success with passion and innovation.
                       </p>
                     </div>
                   </div>

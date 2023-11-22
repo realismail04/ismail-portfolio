@@ -84,14 +84,14 @@ const Contact = () => {
                   <h6 className="font-weight-600">
                     <span className="contact-title">instagram</span>
                     <i className="fa fa-instagram" />
-                    <span className="contact-content"><a target="_blank" href="https://instagram.com/the_real_ismail"> the_real_ismail</a></span>
+                    <span className="contact-content">the_real_ismail</span>
                   </h6>
                 </li>
                 <li>
                   <h6 className="font-weight-600">
                     <span className="contact-title">LinkedIn </span>
                     <i className="fa fa-linkedin" />
-                    <span className="contact-content"><a target="_blank" href="https://linkedin.com/in/theismail04">theismail04</a></span>
+                    <span className="contact-content"><a target="_blank" rel="noreferrer" href="https://linkedin.com/in/theismail04">theismail04</a></span>
                   </h6>
                 </li>
               </ul>
@@ -100,22 +100,22 @@ const Contact = () => {
                 <h6 className="font-weight-600 uppercase">Social Profiles</h6>
                 <ul className="list-inline social social-intro text-center p-none">
                   <li className="facebook">
-                    <a title="Facebook" target="_blank" href="https://www.facebook.com/TheRealIsmail04">
+                    <a title="Facebook" target="_blank" rel="noreferrer" href="https://www.facebook.com/TheRealIsmail04">
                       <i className="fa fa-facebook" />
                     </a>
                   </li>
                   <li className="instagram">
-                    <a title="Instagram" target="_blank" href="https://instagram.com/the_real_ismail">
+                    <a title="Instagram" target="_blank" rel="noreferrer" href="https://instagram.com/the_real_ismail">
                       <i className="fa fa-instagram" />
                     </a>
                   </li>
                   <li className="whatsapp">
-                    <a title="Whatsapp" target="_blank" href="https://wa.link/hnjh05">
+                    <a title="Whatsapp" target="_blank" rel="noreferrer" href="https://wa.link/hnjh05">
                       <i className="fa fa-whatsapp" />
                     </a>
                   </li>
                   <li className="linkedin">
-                    <a title="LinkedIn" target="_blank" href="https://linkedin.com/in/theismail04">
+                    <a title="LinkedIn" target="_blank" rel="noreferrer" href="https://linkedin.com/in/theismail04">
                       <i className="fa fa-linkedin" />
                     </a>
                   </li>
