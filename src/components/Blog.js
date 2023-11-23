@@ -14,14 +14,14 @@ const data = [
     ],
   },
   {
-    title: "Effective Marketing Strategy tips",
+    title: "Building Custom WordPress Websites from Scratch",
     img: "img/blog/blog-post-2.jpg",
     tag: "Design",
     date: { date: "23", month: "jun", year: "2021" },
     des: [
-      "Oki is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+      "In the ever-evolving digital landscape, a robust online presence is fundamental for businesses and individuals alike. A WordPress website stands as a cornerstone, offering versatility, scalability, and an array of possibilities. However, the journey from ideation to a fully functional WordPress website demands expertise, creativity, and meticulous attention to detail.",
+      "Introducing our bespoke service dedicated to crafting tailor-made WordPress websites from scratch. Our mission is to transform visions into digital realities, offering a seamless and immersive online experience that aligns perfectly with your brand identity and goals.", 
+      "<h2>Understanding Your Vision</h2>Our process begins with an in-depth consultation, where we delve into your aspirations, brand ethos, and specific requirements. We believe in the power of collaboration, working closely with you to grasp the essence of your vision. Whether you seek an e-commerce platform, a portfolio site, a blog, or a corporate website, understanding your objectives forms the bedrock of our approach.",
     ],
   },
   {
