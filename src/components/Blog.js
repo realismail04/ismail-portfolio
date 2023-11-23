@@ -25,14 +25,14 @@ const data = [
     ],
   },
   {
-    title: "free psd and sketch ressouces",
+    title: "Advantages of Using WordPress",
     img: "img/blog/blog-post-3.jpg",
     tag: "Media",
     date: { date: "23", month: "jun", year: "2021" },
     des: [
-      "Oki is a leading web design agency with an award-winning design team that creates innovative, effective websites that capture your brand, improve your conversion rates, and maximize your revenue to help grow your business and achieve your goals.",
-      "In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design. It’s also why web design services can have an immense impact on your company’s bottom line.",
-      "That’s why more companies are not only reevaluating their website’s design but also partnering with Kura, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
+      "WordPress, the most popular content management system (CMS) in the world, has gained immense popularity among website owners and bloggers. In this article, we will explore the numerous advantages of using WordPress as your preferred platform for creating and managing your website or blog.",
+      "One of the biggest advantages of WordPress is its user-friendly interface. Even if you have no prior technical knowledge, you can easily navigate through the various features and functionalities of WordPress. With its intuitive dashboard, you can effortlessly create, edit, and publish content.",
+      "WordPress offers a vast collection of themes and plugins that allow you to customize your website to suit your unique needs and preferences. Whether you want a professional-looking business website or a visually stunning blog, you can find a theme that matches your vision. Additionally, plugins enhance the functionality of your website by adding features such as contact forms, social media integration, and SEO optimization.","WordPress is designed with search engine optimization (SEO) in mind. It provides built-in features and plugins that help improve your website's visibility in search engine results pages (SERPs). With WordPress, you can easily optimize your website's meta tags, URLs, and content to rank higher on search engines like Google.","Whether you are running a small blog or a large e-commerce store, WordPress can handle it all. It is highly scalable and can accommodate the growth of your website without any hassle. You can easily add new pages, blog posts, products, or any other type of content as your business expands. Additionally, WordPress can be integrated with various third-party tools and platforms, making it highly flexible.","WordPress has a vibrant and active community of developers, designers, and users who are always ready to help. If you encounter any issues or have any questions, you can seek assistance from the WordPress community forums or attend local WordPress meetups. The community also regularly releases updates and security patches to ensure that your website remains safe and up to date.","In conclusion, WordPress offers numerous advantages that make it the go-to choice for website owners and bloggers. Its ease of use, wide range of themes and plugins, SEO-friendliness, scalability, flexibility, and strong community support make it a robust and reliable platform for building and managing websites. So why wait? Start using WordPress today and unlock the full potential of your online presence."
     ],
   },
   {
