@@ -10,13 +10,14 @@ import {
 const workData = [
   {
     img: "img/projects/project-1.jpg",
-    name: "Image Format",
+    name: "Trucking Transport Website",
     format: "img",
-    project: "WEBSITE",
-    client: "ENVATO",
-    duration: "3 MONTHS",
-    technologies: ["HTML", "JAVASCRIPT"],
+    project: "WORDPRESS WEBSITE",
+    client: "Liam",
+    duration: "LESS THAN A MONTHS",
+    technologies: ["WORDPRESS",],
     budget: "1550 USD",
+    
   },
   {
     img: "img/projects/project-2.jpg",
@@ -200,7 +201,7 @@ const Work = () => {
                       {work.client}
                     </span>
                   </li>
-                  <li>
+                  {/* <li>
                     <i className="fa fa-hourglass-o" />
                     <span className="font-weight-400 project-label">
                       {" "}
@@ -210,7 +211,7 @@ const Work = () => {
                     <span className="font-weight-600 uppercase">
                       {work.duration}
                     </span>
-                  </li>
+                  </li> */}
                   <li>
                     <i className="fa fa-code" />{" "}
                     <span className="font-weight-400 project-label">
@@ -236,7 +237,7 @@ const Work = () => {
                     </span>
                   </li>
                 </ul>
-                <a href="#" className="btn">
+                <a href="https://bit.ly/Trucking-Transport-Website" className="btn">
                   <span>
                     <i className="fa fa-external-link" />
                     preview

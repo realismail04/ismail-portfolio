@@ -60,3 +60,51 @@ a{
 a:hover{
   color: magenta;
 }
+
+
+/* /* Add these styles to your CSS file */
+.project-info-main-content  {
+  display: block;
+	height: 480px;
+	overflow: hidden;
+	position: relative;
+	margin-bottom:50px;
+ 
+} 
+.project-info-main-content img {
+  position: absolute;
+  top: 0;
+  left: 4%;
+  transition: transform 11s ease; /* Transition for smooth scrolling */
+}
+
+.project-info-main-content:hover img {
+  transform: translateY(calc(-100% + 480px)); /* Scroll up by the height of the image */
+}
+
+
+/* For larger screens, adjust the max-height */
+@media (min-width: 768px) {
+  .project-info-main-content {
+    max-height: 80vh; /* Adjust this value as needed */
+  }
+}
+
+.cd-container .col-lg-4 {
+  max-height: 196px;
+  overflow: hidden;
+  position: relative;
+}
+
+.cd-container .col-lg-4 img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+h3.font-weight-600.uppercase {
+  line-height: 36px;
+}
+
+
+
+

@@ -7,6 +7,9 @@ import Home from "../src/components/Home";
 import ColorContext from "../src/context/colorContext";
 import Layouts from "../src/layouts/Layouts";
 
+
+
+
 const Work = dynamic(() => import("../src/components/Work"), {
   ssr: false,
 });
@@ -17,6 +20,7 @@ const IndexVideoDark = () => {
   }, []);
   return (
     <Layouts bodyCls={"dark bgvideo"}>
+
       {/* Back To Home Ends [ONLY MOBILE] */}
       {/* Home Section Starts */}
       <Home leftImg leftImgSrc="img/videodark.jpg" video />
@@ -26,6 +30,7 @@ const IndexVideoDark = () => {
       {/* About Section Ends */}
       {/* Portfolio Section Starts */}
       <Work />
+      
       {/* Portfolio Section Ends */}
       {/* Contact Section Starts */}
       <Contact />

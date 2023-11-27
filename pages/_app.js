@@ -5,6 +5,7 @@ import NavState from "../src/context/navState";
 import PreLoader from "../src/layouts/PreLoader";
 import "../styles/globals.css";
 
+
 function MyApp({ Component, pageProps }) {
   return (
     <Fragment>
@@ -53,12 +54,13 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <NavState>
         <ColorState>
-          <Component {...pageProps} />
+          <Component {...pageProps} /> 
           <PreLoader />
         </ColorState>
       </NavState>
     </Fragment>
   );
 }
+
 
 export default MyApp;
