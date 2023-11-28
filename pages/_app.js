@@ -56,7 +56,7 @@ function MyApp({ Component, pageProps }) {
           rel="stylesheet"
         />
         {/* <link rel="stylesheet" type="text/css" href="css/styleswitcher.css" /> */}
-        <link rel="icon" href="https://i.ibb.co/n1qWp2j/icon500px.png" sizes="any" />
+        <link rel="icon" href="https://raw.githubusercontent.com/realismail04/ismail-portfolio/main/public/img/favicon.png" sizes="any" />
         <title>Syed Ismail - Personal Portfolio</title>
       </Head>
       <NavState>
