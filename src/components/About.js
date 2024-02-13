@@ -142,6 +142,30 @@ const About = () => {
                 experience
               </h2>
               <div className="resume-items">
+                        {/* Item Starts */}
+                <div className="item">
+                  <span className="bullet" />
+                  <div className="card">
+                    <div className="card-header">
+                      <span className="year">
+                        <i className="fa fa-calendar" />
+                        <i className="fa fa-caret-right" />
+                        Feb 2024 - Current
+                      </span>
+                      <span className="d-block font-weight-400 uppercase">
+                      Wordpress Developer
+                        <span className="separator" />
+                        <span className="font-weight-700">DiligentTek</span>
+                      </span>
+                    </div>
+                    <div className="card-body">
+                      <p>
+                      As a dedicated TechStead team member, I am focused on professional growth in WordPress development and creative web design. I play a pivotal role in our web development projects, contributing to our teams success with passion and innovation.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                {/* Item Ends */}
                 {/* Item Starts */}
                 <div className="item">
                   <span className="bullet" />
