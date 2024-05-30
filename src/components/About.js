@@ -160,7 +160,7 @@ const About = () => {
                     </div>
                     <div className="card-body">
                       <p>
-                      At Diligenttek, my efficiency has increased tenfold. I specialize in converting custom designs, Figma, and XD files into WordPress websites. My skills include adding dynamic functionalities using JavaScript and jQuery, as well as developing both static and dynamic plugins. Additionally, I focus on enhancing UI/UX to create engaging user experiences.
+                      At Diligenttek, my efficiency has increased tenfold. I specialize in converting custom designs, Figma, and XD files into WordPress websites. My skills include adding dynamic functionalities using JavaScript and jQuery, as well as developing static plugins. Additionally, I focus on enhancing UI/UX to create engaging user experiences.
                       </p>
                     </div>
                   </div>
