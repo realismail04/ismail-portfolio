@@ -160,7 +160,7 @@ const About = () => {
                     </div>
                     <div className="card-body">
                       <p>
-                      As a dedicated TechStead team member, I am focused on professional growth in WordPress development and creative web design. I play a pivotal role in our web development projects, contributing to our teams success with passion and innovation.
+                      At Diligenttek, my efficiency has increased tenfold. I specialize in converting custom designs, Figma, and XD files into WordPress websites. My skills include adding dynamic functionalities using JavaScript and jQuery, as well as developing both static and dynamic plugins. Additionally, I focus on enhancing UI/UX to create engaging user experiences.
                       </p>
                     </div>
                   </div>
@@ -201,7 +201,7 @@ const About = () => {
                         Feb 2023 - Aug 2023
                       </span>
                       <span className="d-block font-weight-400 uppercase">
-                      Wordpress Developer
+                      UI/UX Wordpress Developer
                         <span className="separator" />
                         <span className="font-weight-700">ZCube</span>
                       </span>
