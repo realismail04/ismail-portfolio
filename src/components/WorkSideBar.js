@@ -39,7 +39,7 @@ export const YoutubeSideBar = ({ playing }) => {
     <div className="videocontainer">
       <iframe
         className="youtube-video"
-        src="https://www.youtube.com/embed/7e90gBu4pas?enablejsapi=1&version=3&playerapiid=ytplayer"
+        src="https://www.youtube.com/embed/sJGVcb5fn2c?si=lPQshO1Ys3ktjnSY"
       />
     </div>
   );
