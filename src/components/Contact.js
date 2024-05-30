@@ -1,9 +1,8 @@
 import emailjs from "emailjs-com";
 import { useContext, useState } from "react";
 import NavContext from "../context/navContext";
-const Contact = () => {
 
-  
+const Contact = () => {
   const { nav } = useContext(NavContext);
 
   const [mailData, setMailData] = useState({
@@ -13,39 +12,42 @@ const Contact = () => {
   });
   const { name, email, message } = mailData;
   const [error, setError] = useState(null);
+
   const onChange = (e) =>
     setMailData({ ...mailData, [e.target.name]: e.target.value });
-  const onSubmit = (e) => {
-  e.preventDefault();
-  if (name.length === 0 || email.length === 0 || message.length === 0) {
-    setError(true);
-    clearError();
-  } else {
-    const templateParams = {
-      from_name: name,
-      from_email: email,
-      message: message,
-    };
 
-    emailjs
-      .send(
-        "portfoliomailer", // service id
-        "template_yndg08r", // template id
-        templateParams,
-        "33It9fiie55VrVANy" // public api key
-      )
-      .then(
-        (response) => {
-          setError(false);
-          clearError();
-          setMailData({ name: "", email: "", message: "" });
-        },
-        (err) => {
-          console.log(err.text);
-        }
-      );
-  }
-};
+  const onSubmit = (e) => {
+    e.preventDefault();
+    if (name.length === 0 || email.length === 0 || message.length === 0) {
+      setError(true);
+      clearError();
+    } else {
+      const templateParams = {
+        from_name: name,
+        from_email: email,
+        message: message,
+      };
+
+      emailjs
+        .send(
+          "portfoliomailer", // service id
+          "template_yndg08r", // template id
+          templateParams,
+          "33It9fiie55VrVANy" // public api key
+        )
+        .then(
+          (response) => {
+            setError(false);
+            clearError();
+            setMailData({ name: "", email: "", message: "" });
+          },
+          (err) => {
+            console.log(err.text);
+          }
+        );
+    }
+  };
+
   const clearError = () => {
     setTimeout(() => {
       setError(null);
@@ -72,7 +74,6 @@ const Contact = () => {
               <ul className="custom-list">
                 <li>
                   <h6 className="font-weight-600">
-                    {" "}
                     <span className="contact-title">Phone</span>
                     <i className="fa fa-whatsapp" />
                     <span className="contact-content">+92 319 2350 193</span>
@@ -80,7 +81,6 @@ const Contact = () => {
                 </li>
                 <li>
                   <h6 className="font-weight-600">
-                    {" "}
                     <span className="contact-title">email</span>
                     <i className="fa fa-envelope-o fs-14" />
                     <span className="contact-content">syedm.ismail04@gmail.com</span>
@@ -97,7 +97,11 @@ const Contact = () => {
                   <h6 className="font-weight-600">
                     <span className="contact-title">LinkedIn </span>
                     <i className="fa fa-linkedin" />
-                    <span className="contact-content"><a target="_blank" rel="noreferrer" href="https://linkedin.com/in/theismail04">theismail04</a></span>
+                    <span className="contact-content">
+                      <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/theismail04">
+                        theismail04
+                      </a>
+                    </span>
                   </h6>
                 </li>
               </ul>
@@ -137,16 +141,15 @@ const Contact = () => {
                 Hello.. please fill out the form below and I will reply you
                 shortly.
               </p>
-              <form className="contactform" onSubmit={(e) => onSubmit(e)}>
+              <form className="contactform" onSubmit={onSubmit}>
                 <div className="row">
                   {/* Name Field Starts */}
                   <div className="form-group col-xl-6">
-                    {" "}
                     <i className="fa fa-user prefix" />
                     <input
                       id="name"
                       name="name"
-                      onChange={(e) => onChange(e)}
+                      onChange={onChange}
                       value={name}
                       type="text"
                       className="form-control"
@@ -157,13 +160,12 @@ const Contact = () => {
                   {/* Name Field Ends */}
                   {/* Email Field Starts */}
                   <div className="form-group col-xl-6">
-                    {" "}
                     <i className="fa fa-envelope prefix" />
                     <input
                       id="email"
                       type="email"
                       name="email"
-                      onChange={(e) => onChange(e)}
+                      onChange={onChange}
                       value={email}
                       className="form-control"
                       placeholder="YOUR EMAIL"
@@ -173,18 +175,16 @@ const Contact = () => {
                   {/* Email Field Ends */}
                   {/* Comment Textarea Starts */}
                   <div className="form-group col-xl-12">
-                    {" "}
                     <i className="fa fa-comments prefix" />
                     <textarea
                       id="comment"
                       name="message"
-                      onChange={(e) => onChange(e)}
+                      onChange={onChange}
                       value={message}
                       className="form-control"
-                      placeholder="YOUR MESSAGE"
+                      placeholder="YOUR New MESSAGE"
                       required=""
-                      defaultValue={""}
-                    />{" "}
+                    />
                   </div>
                 </div>
 
@@ -200,7 +200,6 @@ const Contact = () => {
                     </span>
                   </button>
                 </div>
-
                 {/* Submit Form Button Ends */}
                 <div className="form-message">
                   <div
@@ -212,7 +211,7 @@ const Contact = () => {
                         ? "Please Fill Required Fields"
                         : "Your message has been received, We will contact you soon."}
                     </span>
-                  </div>{" "}
+                  </div>
                   <span className="output_message text-center font-weight-600 uppercase" />
                 </div>
               </form>
@@ -224,4 +223,5 @@ const Contact = () => {
     </section>
   );
 };
+
 export default Contact;
