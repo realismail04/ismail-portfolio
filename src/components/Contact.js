@@ -25,6 +25,7 @@ const Contact = () => {
       const templateParams = {
         from_name: name,
         from_email: email,
+        reply_to: email,
         message: message,
       };
 
@@ -182,7 +183,7 @@ const Contact = () => {
                       onChange={onChange}
                       value={message}
                       className="form-control"
-                      placeholder="YOUR New MESSAGE"
+                      placeholder="YOUR MESSAGE"
                       required=""
                     />
                   </div>
