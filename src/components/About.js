@@ -198,7 +198,7 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        Feb 2023 - Aug 2023
+                        Jan 2023 - Aug 2023
                       </span>
                       <span className="d-block font-weight-400 uppercase">
                       UI/UX Wordpress Developer
