@@ -16,30 +16,36 @@ const Contact = () => {
   const onChange = (e) =>
     setMailData({ ...mailData, [e.target.name]: e.target.value });
   const onSubmit = (e) => {
-    e.preventDefault();
-    if (name.length === 0 || email.length === 0 || message.length === 0) {
-      setError(true);
-      clearError();
-    } else {
-      emailjs
-        .send(
-          "portfoliomailer", // service id
-          "template_yndg08r", // template id
-          mailData,
-          "33It9fiie55VrVANy" // public api
-        )
-        .then(
-          (response) => {
-            setError(false);
-            clearError();
-            setMailData({ name: "", email: "", message: "" });
-          },
-          (err) => {
-            console.log(err.text);
-          }
-        );
-    }
-  };
+  e.preventDefault();
+  if (name.length === 0 || email.length === 0 || message.length === 0) {
+    setError(true);
+    clearError();
+  } else {
+    const templateParams = {
+      from_name: name,
+      from_email: email,
+      message: message,
+    };
+
+    emailjs
+      .send(
+        "portfoliomailer", // service id
+        "template_yndg08r", // template id
+        templateParams,
+        "33It9fiie55VrVANy" // public api key
+      )
+      .then(
+        (response) => {
+          setError(false);
+          clearError();
+          setMailData({ name: "", email: "", message: "" });
+        },
+        (err) => {
+          console.log(err.text);
+        }
+      );
+  }
+};
   const clearError = () => {
     setTimeout(() => {
       setError(null);
