@@ -38,12 +38,13 @@ const Contact = () => {
         )
         .then(
           (response) => {
+            console.log('SUCCESS!', response.status, response.text);
             setError(false);
             clearError();
             setMailData({ name: "", email: "", message: "" });
           },
           (err) => {
-            console.log(err.text);
+            console.log('FAILED...', err);
           }
         );
     }
