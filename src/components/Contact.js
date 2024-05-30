@@ -31,8 +31,8 @@ const Contact = () => {
 
       emailjs
         .send(
-          "portfoliomailer", // service id
-          "template_yndg08r", // template id
+          "newgmail", // service id
+          "template_bbe8xsn", // template id
           templateParams,
           "33It9fiie55VrVANy" // public api key
         )
