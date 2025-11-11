@@ -2,6 +2,10 @@ import { useContext } from "react";
 import NavContext from "../context/navContext";
 
 
+
+
+
+
 const About = () => {
   const { nav } = useContext(NavContext);
   return (
@@ -27,6 +31,7 @@ const About = () => {
                 src="img/dark-about.jpg"
                 alt=""
               />
+              
             </div>
             
             <p className="d-block d-md-none">
@@ -60,12 +65,17 @@ const About = () => {
                 <li>
                   <h6>
                     <span className="font-weight-600">Nationality</span>
-                    Pakistani
+                    Pakistani 
                   </h6>
                 </li>
-                <li>
+              
+              </ul>
+            </div>
+            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+              <ul className="list-2">
+                  <li>
                   <h6>
-                    <span className="font-weight-600">Experience</span>2 years
+                    <span className="font-weight-600">Experience</span>5+ years
                   </h6>
                 </li>
                 <li>
@@ -74,11 +84,7 @@ const About = () => {
                     Male
                   </h6>
                 </li>
-              </ul>
-            </div>
-            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-              <ul className="list-2">
-                <li>
+                                <li>
                   <h6>
                     <span className="font-weight-600">Freelance</span>
                     Available
@@ -90,36 +96,36 @@ const About = () => {
                     English , Urdu
                   </h6>
                 </li>
-                <li>
+                {/* <li>
                   <h6>
                     <span className="font-weight-600">Phone</span><a href="tel:+923192350193">+92 319 2350 193</a>
                   </h6>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <h6>
                     <span className="font-weight-600">Email</span>
                     <a href="mailto:syedm.ismail04@gmail.com">syedm.ismail04@gmail.com</a>
                   </h6>
-                </li>
+                </li> */}
                 {/* <li>
                   <h6>
                     <span className="font-weight-600">Skype</span>
                     daria.taylor
                   </h6>
                 </li> */}
-                <li>
+                {/* <li>
                   <h6>
                     <span className="font-weight-600">Insta</span>
                     <a href="  https://instagram.com/the_real_ismail">the_real_ismail</a>       
                   </h6>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div className="col-12 resume-btn-container">
-              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/theismail04/" className="btn btn-resume">
+              <a target="_blank" rel="noreferrer" href="#work" className="btn btn-resume">
+
                 <span >
-                  <i  className="fa fa-linkedin" id="css"/>
-                  Visit my LinkedIn
+                  Visit my Upwork
                 </span>
               </a>
             </div>
@@ -150,10 +156,34 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        Feb 2024 - Current
+                        Sep 2025 - Current
                       </span>
                       <span className="d-block font-weight-400 uppercase">
-                      Wordpress Developer
+                      Senior CMS Developer
+                        <span className="separator" />
+                        <span className="font-weight-700">Dymax Designs</span>
+                      </span>
+                    </div>
+                    <div className="card-body">
+                      <p>
+                     At Dymax Designs, I work as a Senior CMS Developer and Designer, specializing in WordPress, Wix, Shopify, and Squarespace. I transform custom Figma and XD designs into fully functional, responsive websites with a strong focus on UI/UX design. My expertise includes integrating dynamic functionalities using JavaScript and jQuery, developing custom plugins, and optimizing performance to deliver seamless, engaging user experiences across all major CMS platforms.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                {/* Item Ends */}
+                              {/* Item Starts */}
+                <div className="item">
+                  <span className="bullet" />
+                  <div className="card">
+                    <div className="card-header">
+                      <span className="year">
+                        <i className="fa fa-calendar" />
+                        <i className="fa fa-caret-right" />
+                        Feb 2024 - Sep 2025
+                      </span>
+                      <span className="d-block font-weight-400 uppercase">
+                      Senior Wordpress Developer
                         <span className="separator" />
                         <span className="font-weight-700">DiligentTek</span>
                       </span>
@@ -174,7 +204,7 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        Aug 2023 - Current
+                        Aug 2023 - Feb 2024
                       </span>
                       <span className="d-block font-weight-400 uppercase">
                       Wordpress Developer
@@ -222,10 +252,10 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        2021 - 2023
+                        2021 - Current
                       </span>
                       <span className="d-block font-weight-400 uppercase">
-                        Graphic Designing / Web Development
+                        Graphics & Web Designer
                         <span className="separator" />
                         <span className="font-weight-700">Freelance</span>
                       </span>
@@ -241,8 +271,10 @@ const About = () => {
               </div>
             </div>
             {/* Experience Ends */}
+            
             {/* Education Starts */}
             <div className="col-xl-6 col-lg-6 col-md-6 skills-container">
+              
               <h2 className="font-weight-600 uppercase title-section">
                 Education
               </h2>
@@ -273,6 +305,7 @@ const About = () => {
                   </div>
                 </div>
                 {/* Item Ends */}
+                
                 {/* Item Starts */}
                 <div className="item">
                   <span className="bullet" />
@@ -325,6 +358,7 @@ const About = () => {
                   </div>
                 </div>
                 {/* Item Ends */}
+                
               </div>
             </div>
             {/* Education Ends */}

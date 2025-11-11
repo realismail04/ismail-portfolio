@@ -12,12 +12,12 @@ const menus = [
     name: "my Portfolio",
     id: "work",
   },
-  {
-    icon: "fa fa-envelope-open",
-    dkMenuName: "Contact",
-    name: "get in touch",
-    id: "contact",
-  },
+  // {
+  //   icon: "fa fa-envelope-open",
+  //   dkMenuName: "Contact",
+  //   name: "get in touch",
+  //   id: "contact",
+  // },
   { icon: "fa fa-comments", dkMenuName: "Blog", name: "my Blog", id: "blog" },
 ];
 
