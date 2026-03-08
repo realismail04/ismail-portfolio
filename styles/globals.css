@@ -75,23 +75,15 @@ a:hover {
 .project-info-main-content {
   display: block;
   height: 480px;
-  overflow: hidden;
+  overflow-y: auto;
   position: relative;
   margin-bottom: 50px;
-
 }
 
 .project-info-main-content img {
-  position: absolute;
-  top: 0;
-  left: 4%;
-  transition: transform 11s ease;
-  /* Transition for smooth scrolling */
-}
-
-.project-info-main-content:hover img {
-  transform: translateY(calc(-100% + 480px));
-  /* Scroll up by the height of the image */
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 

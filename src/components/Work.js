@@ -161,6 +161,22 @@ const workData = [
     techUsed: ["WordPress", "Elementor", "Theme Customization"],
     skillsUsed: ["High-End UI Design", "Interactive Property Listings"],
   },
+  {
+    img: "img/projects/project22.png",
+    name: "Apex Logistics",
+    industry: "Logistics",
+    category: "Corporate Website",
+    techUsed: ["WordPress", "PHP", "CSS"],
+    skillsUsed: ["UI/UX Design", "Business Solutions"],
+  },
+  {
+    img: "img/projects/project23.png",
+    name: "Prime Real Estate",
+    industry: "Real Estate",
+    category: "Property Exhibition",
+    techUsed: ["Next.js", "React", "Tailwind"],
+    skillsUsed: ["Modern Web Development", "Interactive Maps"],
+  },
 ];
 
 const Work = () => {
