@@ -1,15 +1,18 @@
-
 @import "./modal.css";
+
 div#__next {
   position: relative;
   height: 100%;
 }
-#main > section {
+
+#main>section {
   transform: translate3d(-100%, 0, 0) !important;
 }
-#main > section.active {
+
+#main>section.active {
   transform: translate3d(0%, 0, 0) !important;
 }
+
 ::-webkit-scrollbar {
   width: 0;
   height: 0;
@@ -24,6 +27,7 @@ span.sc-bdVaJa.bBePZj {
     display: block;
   }
 }
+
 @media only screen and (max-width: 1024px) {
   .back-mobile.close-project {
     line-height: 55px;
@@ -33,9 +37,11 @@ span.sc-bdVaJa.bBePZj {
 .empty_notice {
   color: red;
 }
+
 .returnmessage {
   color: green;
 }
+
 #css {
   background: white;
   padding: 7px;
@@ -45,68 +51,70 @@ span.sc-bdVaJa.bBePZj {
 }
 
 .btn.btn-resume:hover {
-  background:white;
+  background: white;
 }
 
 .text-left .btn:hover {
   background: white;
 }
 
-.leftimagepicture{
+.leftimagepicture {
   border: 10px solid rgb(255 0 255 / 10%);
 }
-a{
+
+a {
   color: white;
 }
-a:hover{
+
+a:hover {
   color: magenta;
 }
 
 
 /* /* Add these styles to your CSS file */
-.project-info-main-content  {
+.project-info-main-content {
   display: block;
-	height: 480px;
-	overflow: hidden;
-	position: relative;
-	margin-bottom:50px;
- 
-} 
+  height: 480px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 50px;
+
+}
+
 .project-info-main-content img {
   position: absolute;
   top: 0;
   left: 4%;
-  transition: transform 11s ease; /* Transition for smooth scrolling */
+  transition: transform 11s ease;
+  /* Transition for smooth scrolling */
 }
 
 .project-info-main-content:hover img {
-  transform: translateY(calc(-100% + 480px)); /* Scroll up by the height of the image */
+  transform: translateY(calc(-100% + 480px));
+  /* Scroll up by the height of the image */
 }
 
 
 /* For larger screens, adjust the max-height */
 @media (min-width: 768px) {
   .project-info-main-content {
-    max-height: 80vh; /* Adjust this value as needed */
+    max-height: 80vh;
+    /* Adjust this value as needed */
   }
 }
 
 .cd-container .col-lg-4 {
-  padding: 0;
+  max-height: 196px;
   overflow: hidden;
   position: relative;
 }
 
 .cd-container .col-lg-4 img {
   width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
+  height: auto;
   transition: transform 0.3s ease-in-out;
 }
+
 h3.font-weight-600.uppercase {
   line-height: 36px;
 }
-
-
-
-
