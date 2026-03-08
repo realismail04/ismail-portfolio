@@ -232,6 +232,10 @@ const Work = () => {
               <ImgSideBar img={work.img} />
             </div>
 
+            <div className="scroll-hint">
+              <span>Scroll Down <i className="fa fa-arrow-down" /></span>
+            </div>
+
             <a
               href="#"
               className="btn btn-secondary close-project"
