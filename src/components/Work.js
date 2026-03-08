@@ -1,4 +1,4 @@
-import { Fragment, useContext, useState } from "react";
+import { Fragment, useContext, useState, useEffect } from "react";
 import NavContext from "../context/navContext";
 import { ImgSideBar } from "./WorkSideBar";
 
@@ -182,6 +182,19 @@ const workData = [
 const Work = () => {
   const { nav } = useContext(NavContext);
   const [active, setActive] = useState(null);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    if (active) {
+      setScrolled(false);
+    }
+  }, [active]);
+
+  const handleScroll = (e) => {
+    if (e.target.scrollTop > 10) {
+      setScrolled(true);
+    }
+  };
 
   return (
     <Fragment>
@@ -228,13 +241,15 @@ const Work = () => {
             className={`project-info-container project-1 ${active === i + 1 ? "slide-in" : ""
               }`}
           >
-            <div className="project-info-main-content">
+            <div className="project-info-main-content" onScroll={handleScroll}>
               <ImgSideBar img={work.img} />
             </div>
 
-            <div className="scroll-hint">
-              <span>Scroll Down <i className="fa fa-arrow-down" /></span>
-            </div>
+            {!scrolled && (
+              <div className="scroll-hint">
+                <span>Scroll Down <i className="fa fa-arrow-down" /></span>
+              </div>
+            )}
 
             <a
               href="#"
