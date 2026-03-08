@@ -21,17 +21,17 @@ const Home = ({ leftImg, video, leftImgSrc }) => {
           </video>
         )}
         {leftImg && (
-            <img
-              className="leftimagepicture"
-              src={`${leftImgSrc ? leftImgSrc : "img/leftimage-dark.jpg"}`}
-              alt=""
-            />
+          <img
+            className="leftimagepicture"
+            src={`${leftImgSrc ? leftImgSrc : "img/leftimage-dark.jpg"}`}
+            alt=""
+          />
         )}
         <div className="main-text" id="selector">
           <h3>Welcome!</h3>
           <AnimationText />
           <p>
-            {`I'm`} Experienced Front End / WordPress Developer and Design Specialist proficient in HTML, CSS, JavaScript, jQuery, Bootstrap & More, and Graphic design tools like Illustrator & PhotoShop.
+            Hey, I help businesses create 𝐡𝐢𝐠𝐡-𝐜𝐨𝐧𝐯𝐞𝐫𝐭𝐢𝐧𝐠 𝐢𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧𝐚𝐥/𝐞𝐂𝐨𝐦𝐦𝐞𝐫𝐜𝐞 websites and strong 𝐛𝐫𝐚𝐧𝐝 𝐢𝐝𝐞𝐧𝐭𝐢𝐭𝐢𝐞𝐬 that truly resonate with their audience. I specialize in 𝐜𝐮𝐬𝐭𝐨𝐦 W𝐞𝐛 𝐬𝐨𝐥𝐮𝐭𝐢𝐨𝐧𝐬 and G𝐫𝐚𝐩𝐡𝐢𝐜 𝐝𝐞𝐬𝐢𝐠𝐧 that work seamlessly to boost engagement and drive results.
           </p>
           <div className="call-to-actions-home">
             <div className="text-left">

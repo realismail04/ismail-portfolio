@@ -16,14 +16,14 @@ const About = () => {
           about <span>me</span>
         </h2>
         <span className="title-head-subtitle">
-        Front End / WordPress Developer | Designer | HTML, CSS, JavaScript, jQuery, Bootstrap | Illustrator & Photoshop Expert
+          UI/UX & Graphic Design Specialist | Custom Web Solutions | PPT Expert
         </span>
       </div>
       {/* Main Heading Ends */}
       <div className="container infos">
         <div className="row personal-info">
           {/* Personal Infos Starts */}
-          
+
           <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
             <div className="image-container">
               <img
@@ -31,9 +31,9 @@ const About = () => {
                 src="img/dark-about.jpg"
                 alt=""
               />
-              
+
             </div>
-            
+
             <p className="d-block d-md-none">
               {`I'm`} a Freelance UI/UX Designer and Developer based in London,
               England. I strives to build immersive and beautiful web
@@ -65,15 +65,15 @@ const About = () => {
                 <li>
                   <h6>
                     <span className="font-weight-600">Nationality</span>
-                    Pakistani 
+                    Pakistani
                   </h6>
                 </li>
-              
+
               </ul>
             </div>
             <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
               <ul className="list-2">
-                  <li>
+                <li>
                   <h6>
                     <span className="font-weight-600">Experience</span>5+ years
                   </h6>
@@ -84,7 +84,7 @@ const About = () => {
                     Male
                   </h6>
                 </li>
-                                <li>
+                <li>
                   <h6>
                     <span className="font-weight-600">Freelance</span>
                     Available
@@ -122,7 +122,7 @@ const About = () => {
               </ul>
             </div>
             <div className="col-12 resume-btn-container">
-              <a target="_blank" rel="noreferrer" href="#work" className="btn btn-resume">
+              <a target="_blank" rel="noreferrer" href="https://www.upwork.com/freelancers/~0109b3ad55ba79761f" className="btn btn-resume">
 
                 <span >
                   Visit my Upwork
@@ -148,7 +148,7 @@ const About = () => {
                 experience
               </h2>
               <div className="resume-items">
-                        {/* Item Starts */}
+                {/* Item Starts */}
                 <div className="item">
                   <span className="bullet" />
                   <div className="card">
@@ -156,23 +156,23 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        Sep 2025 - Current
+                        Sep 2025 - Present
                       </span>
                       <span className="d-block font-weight-400 uppercase">
-                      Senior CMS Developer
+                        Senior CMS Designer & Developer
                         <span className="separator" />
                         <span className="font-weight-700">Dymax Designs</span>
                       </span>
                     </div>
                     <div className="card-body">
                       <p>
-                     At Dymax Designs, I work as a Senior CMS Developer and Designer, specializing in WordPress, Wix, Shopify, and Squarespace. I transform custom Figma and XD designs into fully functional, responsive websites with a strong focus on UI/UX design. My expertise includes integrating dynamic functionalities using JavaScript and jQuery, developing custom plugins, and optimizing performance to deliver seamless, engaging user experiences across all major CMS platforms.
+                        Specializing in WordPress, Wix, Shopify, and Squarespace. I transform custom Figma and XD designs into fully functional, responsive websites with a strong focus on UI/UX design.
                       </p>
                     </div>
                   </div>
                 </div>
                 {/* Item Ends */}
-                              {/* Item Starts */}
+                {/* Item Starts */}
                 <div className="item">
                   <span className="bullet" />
                   <div className="card">
@@ -180,17 +180,41 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        Feb 2024 - Sep 2025
+                        Dec 2022 - Present
                       </span>
                       <span className="d-block font-weight-400 uppercase">
-                      Senior Wordpress Developer
+                        UI/UX Designer
+                        <span className="separator" />
+                        <span className="font-weight-700">Cryptoexpress (Thailand)</span>
+                      </span>
+                    </div>
+                    <div className="card-body">
+                      <p>
+                        Designing user-centered experiences and visually stunning interfaces for high-converting marketing solutions.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                {/* Item Ends */}
+                {/* Item Starts */}
+                <div className="item">
+                  <span className="bullet" />
+                  <div className="card">
+                    <div className="card-header">
+                      <span className="year">
+                        <i className="fa fa-calendar" />
+                        <i className="fa fa-caret-right" />
+                        Jan 2024 - Sep 2025
+                      </span>
+                      <span className="d-block font-weight-400 uppercase">
+                        Senior CMS Developer
                         <span className="separator" />
                         <span className="font-weight-700">DiligentTek</span>
                       </span>
                     </div>
                     <div className="card-body">
                       <p>
-                      At Diligenttek, my efficiency has increased tenfold. I specialize in converting custom designs, Figma, and XD files into WordPress websites. My skills include adding dynamic functionalities using JavaScript and jQuery, as well as developing static plugins. Additionally, I focus on enhancing UI/UX to create engaging user experiences.
+                        Focused on converting custom designs (Figma/XD) into WordPress and enhancing UI/UX for engaging experiences.
                       </p>
                     </div>
                   </div>
@@ -204,17 +228,17 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        Aug 2023 - Feb 2024
+                        Aug 2023 - Jan 2024
                       </span>
                       <span className="d-block font-weight-400 uppercase">
-                      Wordpress Developer
+                        Front End / WordPress Developer
                         <span className="separator" />
                         <span className="font-weight-700">TechStead</span>
                       </span>
                     </div>
                     <div className="card-body">
                       <p>
-                      As a dedicated TechStead team member, I am focused on professional growth in WordPress development and creative web design. I play a pivotal role in our web development projects, contributing to our teams success with passion and innovation.
+                        Played a pivotal role in WordPress web development projects, focusing on custom design conversion and performance optimization.
                       </p>
                     </div>
                   </div>
@@ -228,17 +252,17 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        Jan 2023 - Aug 2023
+                        Feb 2023 - Aug 2023
                       </span>
                       <span className="d-block font-weight-400 uppercase">
-                      UI/UX Wordpress Developer
+                        Wordpress Developer
                         <span className="separator" />
-                        <span className="font-weight-700">ZCube</span>
+                        <span className="font-weight-700">ZCUBE</span>
                       </span>
                     </div>
                     <div className="card-body">
                       <p>
-                      At Zcube, I underwent a transformative six-month journey, enhancing my skills in WordPress development, creative web design, e-commerce, HTML/CSS, and graphic design.
+                        Developed skills in e-commerce, blogs, and appointment websites with expert-level HTML/CSS craftsmanship.
                       </p>
                     </div>
                   </div>
@@ -252,17 +276,17 @@ const About = () => {
                       <span className="year">
                         <i className="fa fa-calendar" />
                         <i className="fa fa-caret-right" />
-                        2021 - Current
+                        2021 - Present
                       </span>
                       <span className="d-block font-weight-400 uppercase">
-                        Graphics & Web Designer
+                        Freelance UI/UX & Graphic Designer
                         <span className="separator" />
                         <span className="font-weight-700">Freelance</span>
                       </span>
                     </div>
                     <div className="card-body">
                       <p>
-                      As a freelancer, I deepened my skills in graphic design and web development, excelling in WordPress, creative web design, e-commerce, HTML/CSS, and graphic design.
+                        Delivering custom branding and web solutions for international clients with a focus on functional and scalable design.
                       </p>
                     </div>
                   </div>
@@ -271,10 +295,10 @@ const About = () => {
               </div>
             </div>
             {/* Experience Ends */}
-            
+
             {/* Education Starts */}
             <div className="col-xl-6 col-lg-6 col-md-6 skills-container">
-              
+
               <h2 className="font-weight-600 uppercase title-section">
                 Education
               </h2>
@@ -299,13 +323,13 @@ const About = () => {
                     </div>
                     <div className="card-body">
                       <p>
-                      I am currently pursuing my Bachelor of Science in Computer Science at Iqra University (Official), furthering my knowledge in programming, algorithms, software development, and computer science fundamentals.
+                        Currently pursuing a Bachelor of Science in Computer Science, focusing on programming, algorithms, and software development fundamentals.
                       </p>
                     </div>
                   </div>
                 </div>
                 {/* Item Ends */}
-                
+
                 {/* Item Starts */}
                 <div className="item">
                   <span className="bullet" />
@@ -317,16 +341,16 @@ const About = () => {
                         2020 - 2022
                       </span>
                       <span className="d-block font-weight-400 uppercase">
-                              Intermediate , Pre-Engineering
+                        Intermediate , Pre-Engineering
                         <span className="separator" />
                         <span className="font-weight-700">
-                        Govt. Dehli College
+                          Govt. Dehli College
                         </span>
                       </span>
                     </div>
                     <div className="card-body">
                       <p>
-                      I completed my Intermediate in Pre-Engineering at Govt. Dehli College, where I gained a strong understanding of mathematics, physics, chemistry, and engineering principles, laying the groundwork for my further studies in the field of technology and engineering.
+                        I completed my Intermediate in Pre-Engineering at Govt. Dehli College, where I gained a strong understanding of mathematics, physics, chemistry, and engineering principles, laying the groundwork for my further studies in the field of technology and engineering.
                       </p>
                     </div>
                   </div>
@@ -346,23 +370,74 @@ const About = () => {
                         Matric, Computer Science
                         <span className="separator" />
                         <span className="font-weight-700">
-                        S.M PUBLIC SCHOOL
+                          S.M PUBLIC SCHOOL
                         </span>
                       </span>
                     </div>
                     <div className="card-body">
                       <p>
-                      I studied Computer Science at S.M. Public School.
+                        I studied Computer Science at S.M. Public School.
                       </p>
                     </div>
                   </div>
                 </div>
                 {/* Item Ends */}
-                
+
               </div>
             </div>
             {/* Education Ends */}
           </div>
+          {/* Certifications Starts */}
+          <div className="row">
+            <div className="col-12">
+              <h2 className="font-weight-600 uppercase title-section certifications-title">
+                Certifications
+              </h2>
+            </div>
+            <div className="col-xl-6 col-lg-6 col-md-6">
+              <div className="resume-items">
+                <div className="item">
+                  <span className="bullet" />
+                  <div className="card">
+                    <div className="card-header">
+                      <span className="year">
+                        <i className="fa fa-calendar" />
+                        <i className="fa fa-caret-right" />
+                        August 2021
+                      </span>
+                      <span className="d-block font-weight-400 uppercase">
+                        Certified Javascript Developer
+                        <span className="separator" />
+                        <span className="font-weight-700">W3Schools</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-6 col-lg-6 col-md-6">
+              <div className="resume-items">
+                <div className="item">
+                  <span className="bullet" />
+                  <div className="card">
+                    <div className="card-header">
+                      <span className="year">
+                        <i className="fa fa-calendar" />
+                        <i className="fa fa-caret-right" />
+                        July 2021
+                      </span>
+                      <span className="d-block font-weight-400 uppercase">
+                        CCEE Graphics & Web Designer
+                        <span className="separator" />
+                        <span className="font-weight-700">NED University</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* Certifications Ends */}
           {/* Skills Starts */}
           <div className="row">
             {/* Skill Bar Starts */}
@@ -413,7 +488,7 @@ const About = () => {
                   style={{ width: "95%" }}
                 />
                 <span className="percent" style={{ right: "calc(5% - 21px)" }}>
-                95%
+                  95%
                   <b className="arrow" />
                 </span>
               </div>
@@ -485,23 +560,7 @@ const About = () => {
             {/* Skill Bar Ends */}
             {/* Skill Bar Starts */}
             <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">C++</span>
-              <div className="chart-bar">
-                <span
-                  className="item-progress"
-                  data-percent={75}
-                  style={{ width: "75%" }}
-                />
-                <span className="percent" style={{ right: "calc(25% - 21px)" }}>
-                  75%
-                  <b className="arrow" />
-                </span>
-              </div>
-            </div>
-            {/* Skill Bar Ends */}
-            {/* Skill Bar Starts */}
-            <div className="col-12 col-sm-6 col-md-4">
-              <span className="skill-text">MS Office</span>
+              <span className="skill-text">Figma</span>
               <div className="chart-bar">
                 <span
                   className="item-progress"
@@ -515,20 +574,34 @@ const About = () => {
               </div>
             </div>
             {/* Skill Bar Ends */}
+            {/* Skill Bar Starts */}
+            <div className="col-12 col-sm-6 col-md-4">
+              <span className="skill-text">PowerPoint</span>
+              <div className="chart-bar">
+                <span
+                  className="item-progress"
+                  data-percent={95}
+                  style={{ width: "95%" }}
+                />
+                <span className="percent" style={{ right: "calc(5% - 21px)" }}>
+                  95%
+                  <b className="arrow" />
+                </span>
+              </div>
+            </div>
+            {/* Skill Bar Ends */}
           </div>
-          {/* Skills Starts */}
-          
+          {/* Skills Ends */}
         </div>
-        
         {/* Resume Ends */}
         {/* Divider */}
-      <div className="container col-12 mx-auto text-center">
-        <hr className="about-section" />
+        <div className="container col-12 mx-auto text-center">
+          <hr className="about-section" />
+        </div>
+        {/* Divider*/}
       </div>
-      {/* Divider*/}
-      </div>
-      
     </section>
   );
 };
+
 export default About;
