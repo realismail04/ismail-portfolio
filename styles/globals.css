@@ -92,14 +92,15 @@ a:hover{
 }
 
 .cd-container .col-lg-4 {
-  max-height: 196px;
+  padding: 0;
   overflow: hidden;
   position: relative;
 }
 
 .cd-container .col-lg-4 img {
   width: 100%;
-  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   transition: transform 0.3s ease-in-out;
 }
 h3.font-weight-600.uppercase {

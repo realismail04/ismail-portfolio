@@ -34,12 +34,28 @@ const workData = [
     skillsUsed: ["Theme Customization", "Product Integration", "Payment Setup"],
   },
   {
+    img: "img/projects/project-3.jpg",
+    name: "Fashion Store V2",
+    industry: "E-Commerce",
+    category: "Online Store",
+    techUsed: ["WordPress", "PHP", "CSS"],
+    skillsUsed: ["UI Refinement", "Product Layout"],
+  },
+  {
     img: "img/projects/project-4.webp",
     name: "Wellness Space",
     industry: "Health & Wellness",
     category: "Service Booking Website",
     techUsed: ["Wix", "Velo", "CSS", "jQuery"],
     skillsUsed: ["UI Design", "Interactive Layout", "Booking Integration"],
+  },
+  {
+    img: "img/projects/project-4.jpg",
+    name: "Wellness Space Pro",
+    industry: "Health & Wellness",
+    category: "Advanced Booking System",
+    techUsed: ["Wix", "Velo", "JavaScript"],
+    skillsUsed: ["Custom Functionality", "User Experience"],
   },
   {
     img: "img/projects/project-5.webp",
@@ -50,6 +66,14 @@ const workData = [
     skillsUsed: ["Creative Direction", "Branding", "Minimal Design"],
   },
   {
+    img: "img/projects/project-5.jpg",
+    name: "BrightMedia V2",
+    industry: "Media & Marketing",
+    category: "Agency Portfolio",
+    techUsed: ["Squarespace", "CSS"],
+    skillsUsed: ["Visual Content", "Layout Design"],
+  },
+  {
     img: "img/projects/project-6.webp",
     name: "The Hail Gate",
     industry: "Events & Entertainment",
@@ -58,12 +82,36 @@ const workData = [
     skillsUsed: ["Event Management UI", "Responsive Design"],
   },
   {
+    img: "img/projects/project-6.jpg",
+    name: "The Hail Gate Events",
+    industry: "Events & Entertainment",
+    category: "Ticketing System",
+    techUsed: ["WordPress", "PHP"],
+    skillsUsed: ["Event Coordination", "User Flow"],
+  },
+  {
     img: "img/projects/project-7.webp",
-    name: "Dr. Daphne",
-    industry: "Child Care & Education",
-    category: "Professional Development Website",
+    name: "M&H Dispatch Services LLC",
+    industry: "Logistics & Transportation",
+    category: "Truck Dispatching Website",
     techUsed: ["WordPress", "Elementor", "HTML5/CSS3"],
-    skillsUsed: ["Educational Content Layout", "Responsive Design"],
+    skillsUsed: ["Logistics UI Design", "Service Management Layout", "Responsive Design"],
+  },
+  {
+    img: "img/projects/project-7.jpg",
+    name: "M&H Logistics",
+    industry: "Logistics & Transportation",
+    category: "Freight Management Portal",
+    techUsed: ["WordPress", "Custom CSS"],
+    skillsUsed: ["Portal Design", "Operational Flow"],
+  },
+  {
+    img: "img/projects/project-7.png",
+    name: "M&H Dispatch V2",
+    industry: "Logistics & Transportation",
+    category: "Operations Dashboard",
+    techUsed: ["WordPress", "JavaScript"],
+    skillsUsed: ["Data Visualization", "Admin UI"],
   },
   {
     img: "img/projects/project-8.png",
@@ -74,12 +122,28 @@ const workData = [
     skillsUsed: ["Service Showcase", "Lead Generation"],
   },
   {
+    img: "img/projects/project-8.jpg",
+    name: "Sweatcap Construction",
+    industry: "Construction",
+    category: "Project Portfolio",
+    techUsed: ["WordPress", "Bootstrap"],
+    skillsUsed: ["Project Gallery", "Site Inspection UI"],
+  },
+  {
     img: "img/projects/project-9.jpg",
     name: "Sandi Rogers",
     industry: "Natural Medicine & Publishing",
     category: "Author & Speaker Website",
     techUsed: ["WordPress", "Elementor", "WooCommerce"],
     skillsUsed: ["E-book Integration", "Course Management"],
+  },
+  {
+    img: "img/projects/project-9.png",
+    name: "Sandi Rogers Publications",
+    industry: "Natural Medicine & Publishing",
+    category: "Digital Book Store",
+    techUsed: ["WordPress", "WooCommerce"],
+    skillsUsed: ["E-commerce UX", "Payment Gateway"],
   },
   {
     img: "img/projects/project-10.png",
@@ -107,9 +171,8 @@ const Work = () => {
     <Fragment>
       <section id="work" className={`${nav === "work" ? "active" : ""}`}>
         <div
-          className={`portfolio-container ${
-            active ? "slide-out overflow-hidden" : ""
-          }`}
+          className={`portfolio-container ${active ? "slide-out overflow-hidden" : ""
+            }`}
         >
           {/* Main Heading */}
           <div className="container page-title text-center">
@@ -124,7 +187,7 @@ const Work = () => {
           {/* Portfolio Grid */}
           <div className="portfolio-section">
             <div className="container cd-container">
-              <ul className="row" id="portfolio-items">
+              <ul className="row g-0" id="portfolio-items">
                 {workData.map((work, i) => (
                   <li className="col-12 col-md-6 col-lg-4" key={i}>
                     <a href="#" onClick={() => setActive(i + 1)}>
@@ -146,9 +209,8 @@ const Work = () => {
         {workData.map((work, i) => (
           <div
             key={i}
-            className={`project-info-container project-1 ${
-              active === i + 1 ? "slide-in" : ""
-            }`}
+            className={`project-info-container project-1 ${active === i + 1 ? "slide-in" : ""
+              }`}
           >
             <div className="project-info-main-content">
               <ImgSideBar img={work.img} />
