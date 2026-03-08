@@ -216,49 +216,16 @@ const Work = () => {
               <ImgSideBar img={work.img} />
             </div>
 
-            <div className="projects-info row">
-              <div className="col-12 col-sm-6 p-none">
-                <h3 className="font-weight-600 uppercase">{work.name}</h3>
-                <ul className="project-details">
-                  <li>
-                    <i className="fa fa-building" />
-                    <span className="font-weight-400 project-label"> Industry </span> :
-                    <span className="font-weight-600 uppercase"> {work.industry}</span>
-                  </li>
-                  <li>
-                    <i className="fa fa-folder-open-o" />
-                    <span className="font-weight-400 project-label"> Category </span> :
-                    <span className="font-weight-600 uppercase"> {work.category}</span>
-                  </li>
-                  <li>
-                    <i className="fa fa-code" />
-                    <span className="font-weight-400 project-label"> Tech Used </span> :
-                    <span className="font-weight-600 uppercase">
-                      {work.techUsed.join(", ")}
-                    </span>
-                  </li>
-                  <li>
-                    <i className="fa fa-lightbulb-o" />
-                    <span className="font-weight-400 project-label"> Skills Used </span> :
-                    <span className="font-weight-600 uppercase">
-                      {work.skillsUsed.join(", ")}
-                    </span>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="col-6 p-none text-right">
-                <a
-                  href="#"
-                  className="btn btn-secondary close-project"
-                  onClick={() => setActive(null)}
-                >
-                  <span>
-                    <i className="fa fa-close" /> Close
-                  </span>
-                </a>
-              </div>
-            </div>
+            <a
+              href="#"
+              className="btn btn-secondary close-project"
+              onClick={() => setActive(null)}
+              style={{ position: 'fixed', top: '30px', right: '30px', zIndex: 111 }}
+            >
+              <span>
+                <i className="fa fa-close" /> Close
+              </span>
+            </a>
           </div>
         ))}
       </section>
