@@ -35,10 +35,7 @@ const About = () => {
             </div>
 
             <p className="d-block d-md-none">
-              {`I'm`} a Freelance UI/UX Designer and Developer based in London,
-              England. I strives to build immersive and beautiful web
-              applications through carefully crafted code and user-centric
-              design.
+              Hey, I help businesses create 𝐡𝐢𝐠𝐡-𝐜𝐨𝐧𝐯𝐞𝐫𝐭𝐢𝐧𝐠 𝐢𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧𝐚𝐥/𝐞𝐂𝐨𝐦𝐦𝐞𝐫𝐜𝐞 websites and strong 𝐛𝐫𝐚𝐧𝐝 𝐢𝐝𝐞𝐧𝐭𝐢𝐭𝐢𝐞𝐬 that truly resonate with their audience. I specialize in 𝐜𝐮𝐬𝐭𝐨𝐦 W𝐞𝐛 𝐬𝐨𝐥𝐮𝐭𝐢𝐨𝐧𝐬 and G𝐫𝐚𝐩𝐡𝐢𝐜 𝐝𝐞𝐬𝐢𝐠𝐧 that work seamlessly to boost engagement and drive results.
             </p>
           </div>
           <div className="row col-xl-6 col-lg-6 col-md-12">
