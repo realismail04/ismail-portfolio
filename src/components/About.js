@@ -587,6 +587,118 @@ const About = () => {
               </div>
             </div>
             {/* Skill Bar Ends */}
+            {/* Skill Bar Starts */}
+            <div className="col-12 col-sm-6 col-md-4">
+              <span className="skill-text">WIX</span>
+              <div className="chart-bar">
+                <span
+                  className="item-progress"
+                  data-percent={90}
+                  style={{ width: "90%" }}
+                />
+                <span className="percent" style={{ right: "calc(10% - 21px)" }}>
+                  90%
+                  <b className="arrow" />
+                </span>
+              </div>
+            </div>
+            {/* Skill Bar Ends */}
+            {/* Skill Bar Starts */}
+            <div className="col-12 col-sm-6 col-md-4">
+              <span className="skill-text">Squarespace</span>
+              <div className="chart-bar">
+                <span
+                  className="item-progress"
+                  data-percent={90}
+                  style={{ width: "90%" }}
+                />
+                <span className="percent" style={{ right: "calc(10% - 21px)" }}>
+                  90%
+                  <b className="arrow" />
+                </span>
+              </div>
+            </div>
+            {/* Skill Bar Ends */}
+            {/* Skill Bar Starts */}
+            <div className="col-12 col-sm-6 col-md-4">
+              <span className="skill-text">Shopify</span>
+              <div className="chart-bar">
+                <span
+                  className="item-progress"
+                  data-percent={85}
+                  style={{ width: "85%" }}
+                />
+                <span className="percent" style={{ right: "calc(15% - 21px)" }}>
+                  85%
+                  <b className="arrow" />
+                </span>
+              </div>
+            </div>
+            {/* Skill Bar Ends */}
+            {/* Skill Bar Starts */}
+            <div className="col-12 col-sm-6 col-md-4">
+              <span className="skill-text">GoHighLevel</span>
+              <div className="chart-bar">
+                <span
+                  className="item-progress"
+                  data-percent={80}
+                  style={{ width: "80%" }}
+                />
+                <span className="percent" style={{ right: "calc(20% - 21px)" }}>
+                  80%
+                  <b className="arrow" />
+                </span>
+              </div>
+            </div>
+            {/* Skill Bar Ends */}
+            {/* Skill Bar Starts */}
+            <div className="col-12 col-sm-6 col-md-4">
+              <span className="skill-text">Webflow</span>
+              <div className="chart-bar">
+                <span
+                  className="item-progress"
+                  data-percent={85}
+                  style={{ width: "85%" }}
+                />
+                <span className="percent" style={{ right: "calc(15% - 21px)" }}>
+                  85%
+                  <b className="arrow" />
+                </span>
+              </div>
+            </div>
+            {/* Skill Bar Ends */}
+            {/* Skill Bar Starts */}
+            <div className="col-12 col-sm-6 col-md-4">
+              <span className="skill-text">local seo</span>
+              <div className="chart-bar">
+                <span
+                  className="item-progress"
+                  data-percent={90}
+                  style={{ width: "90%" }}
+                />
+                <span className="percent" style={{ right: "calc(10% - 21px)" }}>
+                  90%
+                  <b className="arrow" />
+                </span>
+              </div>
+            </div>
+            {/* Skill Bar Ends */}
+            {/* Skill Bar Starts */}
+            <div className="col-12 col-sm-6 col-md-4">
+              <span className="skill-text">website optimisation</span>
+              <div className="chart-bar">
+                <span
+                  className="item-progress"
+                  data-percent={95}
+                  style={{ width: "95%" }}
+                />
+                <span className="percent" style={{ right: "calc(5% - 21px)" }}>
+                  95%
+                  <b className="arrow" />
+                </span>
+              </div>
+            </div>
+            {/* Skill Bar Ends */}
           </div>
           {/* Skills Ends */}
         </div>
