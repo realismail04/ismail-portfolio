@@ -57,7 +57,27 @@ function MyApp({ Component, pageProps }) {
         />
         {/* <link rel="stylesheet" type="text/css" href="css/styleswitcher.css" /> */}
         <link rel="icon" href="https://raw.githubusercontent.com/realismail04/ismail-portfolio/main/public/img/favicon.png" sizes="any" />
-        <title>Syed Ismail - Personal Portfolio</title>
+        <title>Syed Ismail | Senior CMS Developer & Designer</title>
+
+        {/* Standard SEO */}
+        <meta name="description" content="Senior CMS Developer and Designer specializing in WordPress, Wix, Shopify, and Squarespace. I transform custom Figma and XD designs into fully functional websites." />
+        <meta name="author" content="Syed Ismail" />
+        <meta name="robots" content="index, follow" />
+
+        {/* Open Graph / Facebook / WhatsApp */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://syedismail-portfolio.vercel.app/" />
+        <meta property="og:title" content="Syed Ismail | Senior CMS Developer & Designer" />
+        <meta property="og:description" content="Senior CMS Developer and Designer specializing in WordPress, Wix, Shopify, and Squarespace. I transform custom Figma and XD designs into fully functional websites." />
+        <meta property="og:image" content="https://raw.githubusercontent.com/realismail04/ismail-portfolio/main/public/img/favicon.png" />
+        <meta property="og:site_name" content="Syed Ismail Portfolio" />
+
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:url" content="https://syedismail-portfolio.vercel.app/" />
+        <meta name="twitter:title" content="Syed Ismail | Senior CMS Developer & Designer" />
+        <meta name="twitter:description" content="Senior CMS Developer and Designer specializing in WordPress, Wix, Shopify, and Squarespace. I transform custom Figma and XD designs into fully functional websites." />
+        <meta name="twitter:image" content="https://raw.githubusercontent.com/realismail04/ismail-portfolio/main/public/img/favicon.png" />
       </Head>
       <NavState>
         <ColorState>
