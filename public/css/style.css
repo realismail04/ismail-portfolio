@@ -1,4 +1,4 @@
-﻿/*
+/*
 Template Name: Istanbul - Personal Portfolio
 Author: Celtano
 Author URI: http://themeforest.net/user/celtano
@@ -1778,6 +1778,15 @@ body.light .personal-info ul h6 {
   display: block;
   position: relative;
   border-radius: 4px;
+}
+
+#portfolio-items li a img {
+  object-position: top center;
+  transition: object-position 4s ease-in-out !important;
+}
+
+#portfolio-items li a:hover img {
+  object-position: bottom center;
 }
 
 #portfolio-items li a {
