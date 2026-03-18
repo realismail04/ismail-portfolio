@@ -145,3 +145,75 @@ a:hover {
 h3.font-weight-600.uppercase {
   line-height: 36px;
 }
+
+/* Custom Premium Cursor Styles */
+@media (min-width: 1025px) {
+  body, 
+  a, 
+  button, 
+  .btn,
+  .portfolio-section li a,
+  [role="button"] {
+    cursor: none !important;
+  }
+
+  .custom-cursor-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 99999;
+    transition: width 0.3s, height 0.3s, opacity 0.3s;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .custom-cursor-container.visible {
+    opacity: 1;
+  }
+
+  .cursor-dot {
+    width: 6px;
+    height: 6px;
+    background-color: magenta;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 100000;
+  }
+
+  .cursor-outline {
+    width: 100%;
+    height: 100%;
+    border: 2px solid magenta;
+    border-radius: 50%;
+    opacity: 0.5;
+    transition: all 0.3s ease-out;
+  }
+
+  .custom-cursor-container.hovered .cursor-outline {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 0, 255, 0.1);
+    opacity: 0.8;
+  }
+
+  .custom-cursor-container.hovered .cursor-dot {
+    transform: scale(0.5);
+  }
+
+  .custom-cursor-container.clicked .cursor-outline {
+    transform: scale(0.8);
+    background-color: rgba(255, 0, 255, 0.3);
+  }
+}
+
+@media (max-width: 1024px) {
+  .custom-cursor-container {
+    display: none !important;
+  }
+}
