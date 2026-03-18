@@ -30,7 +30,6 @@ const Layouts = ({ children, bodyCls, extraPage, light }) => {
           href={`css/skins/${color}.css`}
           rel="stylesheet"
         />{" "}
-        <title>Syed Ismail - Personal Portfolio</title>
         <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
       </Head>
       <div className="page animated" style={{ animationDuration: "500ms" }}>

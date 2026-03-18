@@ -1,4 +1,5 @@
 import { Fragment, useContext, useState, useEffect } from "react";
+import Image from "next/image";
 import NavContext from "../context/navContext";
 import { ImgSideBar } from "./WorkSideBar";
 
@@ -177,6 +178,38 @@ const workData = [
     techUsed: ["Next.js", "React", "Tailwind"],
     skillsUsed: ["Modern Web Development", "Interactive Maps"],
   },
+  {
+    img: "img/projects/Ai Tech.png",
+    name: "Ai Tech Solutions",
+    industry: "Technology & AI",
+    category: "Corporate Website",
+    techUsed: ["Next.js", "Tailwind CSS", "Framer Motion"],
+    skillsUsed: ["AI Interface Design", "Responsive Layout", "Performance Optimization"],
+  },
+  {
+    img: "img/projects/Palm&Patios.png",
+    name: "Palm & Patios",
+    industry: "Landscaping & Outdoor Living",
+    category: "Service Showcase",
+    techUsed: ["WordPress", "Elementor", "Custom CSS"],
+    skillsUsed: ["Visual Content Strategy", "Lead Generation Design", "Portfolio Management"],
+  },
+  {
+    img: "img/projects/Sky Blue Pools.png",
+    name: "Sky Blue Pools",
+    industry: "Home Services",
+    category: "E-Commerce / Service Website",
+    techUsed: ["WordPress", "WooCommerce", "PHP"],
+    skillsUsed: ["Online Booking System", "Payment Gateway Integration", "UI/UX for Services"],
+  },
+  {
+    img: "img/projects/The Nerve to Heal – Empowering the mind and Body to Restore Function.png",
+    name: "The Nerve to Heal",
+    industry: "Health & Wellness",
+    category: "Medical Clinic Website",
+    techUsed: ["WordPress", "Custom Design", "SEO"],
+    skillsUsed: ["Healthcare UI Design", "Patient Engagement", "Accessibility Optimization"],
+  },
 ];
 
 const Work = () => {
@@ -220,7 +253,15 @@ const Work = () => {
                 {workData.map((work, i) => (
                   <li className="col-12 col-md-6 col-lg-4" key={i}>
                     <a href="#" onClick={() => setActive(i + 1)}>
-                      <img src={work.img} alt={work.name} className="img-fluid" />
+                      <Image 
+                        src={"/" + work.img} 
+                        alt={work.name} 
+                        width={600} 
+                        height={450} 
+                        className="img-fluid"
+                        loading="lazy" 
+                        objectFit="cover"
+                      />
                       <div>
                       </div>
                     </a>

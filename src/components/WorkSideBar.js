@@ -1,8 +1,19 @@
 import { useEffect, useRef } from "react";
+import Image from "next/image";
 import Carousel from "react-bootstrap/Carousel";
 
 export const ImgSideBar = ({ img }) => {
-  return <img src={img} alt="Project Image" />;
+  return (
+    <Image 
+      src={"/" + img} 
+      alt="Project Image" 
+      width={1200} 
+      height={800} 
+      layout="responsive"
+      objectFit="contain"
+      priority={true} 
+    />
+  );
 };
 
 export const VideoSideBar = ({ playing }) => {
@@ -70,13 +81,13 @@ export const SliderSideBar = () => {
         indicators={false}
       >
         <Carousel.Item className="carousel-item" interval={1000}>
-          <img src="img/projects/project-8.jpg" alt="slide 1" />
+          <Image src="/img/projects/project-8.jpg" alt="slide 1" width={1200} height={800} layout="responsive" />
         </Carousel.Item>
         <Carousel.Item className="carousel-item" interval={1000}>
-          <img src="img/projects/project-7.jpg" alt="slide 2" />
+          <Image src="/img/projects/project-7.jpg" alt="slide 2" width={1200} height={800} layout="responsive" />
         </Carousel.Item>
         <Carousel.Item className="carousel-item" interval={1000}>
-          <img src="img/projects/project-5.jpg" alt="slide 3" />
+          <Image src="/img/projects/project-5.jpg" alt="slide 3" width={1200} height={800} layout="responsive" />
         </Carousel.Item>
       </Carousel>
     </div>
