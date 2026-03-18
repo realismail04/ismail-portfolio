@@ -4,14 +4,11 @@ import Carousel from "react-bootstrap/Carousel";
 
 export const ImgSideBar = ({ img }) => {
   return (
-    <Image 
+    <img 
       src={"/" + img} 
       alt="Project Image" 
-      width={1200} 
-      height={800} 
-      layout="responsive"
-      objectFit="contain"
-      priority={true} 
+      loading="lazy"
+      style={{ width: '100%', height: 'auto' }}
     />
   );
 };
@@ -81,13 +78,13 @@ export const SliderSideBar = () => {
         indicators={false}
       >
         <Carousel.Item className="carousel-item" interval={1000}>
-          <Image src="/img/projects/project-8.jpg" alt="slide 1" width={1200} height={800} layout="responsive" />
+          <img src="/img/projects/project-8.jpg" alt="slide 1" style={{ width: '100%', height: 'auto' }} />
         </Carousel.Item>
         <Carousel.Item className="carousel-item" interval={1000}>
-          <Image src="/img/projects/project-7.jpg" alt="slide 2" width={1200} height={800} layout="responsive" />
+          <img src="/img/projects/project-7.jpg" alt="slide 2" style={{ width: '100%', height: 'auto' }} />
         </Carousel.Item>
         <Carousel.Item className="carousel-item" interval={1000}>
-          <Image src="/img/projects/project-5.jpg" alt="slide 3" width={1200} height={800} layout="responsive" />
+          <img src="/img/projects/project-5.jpg" alt="slide 3" style={{ width: '100%', height: 'auto' }} />
         </Carousel.Item>
       </Carousel>
     </div>
